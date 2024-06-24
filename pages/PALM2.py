@@ -4,9 +4,9 @@ import numpy as np
 
 
 
-st.set_page_config(
-    layout="wide",
-)
+# st.set_page_config(
+#     layout="wide",
+# )
 
 
 
