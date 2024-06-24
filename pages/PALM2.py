@@ -28,7 +28,7 @@ DATA_URL = "./used_in_paper.csv"
 
 
 columns=["type", "Question", "PALM2", "Unnamed: 4"]
-columns2 = ["qno", "type", "Question", "GPT4"]
+columns2 = ["qno", "type", "Question", "PALM2"]
 
 reviewer1 = "Reviewer 1"
 reviewer2 = "Reviewer 2"
