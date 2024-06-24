@@ -45,7 +45,7 @@ if option:
         container.write(d["GPT4"].values[0])
     with col2:
         container = st.container(border=True)
-        container.write("GPT2 June 2024")
+        container.write("GPT4 June 2024:")
         container.write(new_data[new_data["question"]==option]["answer"].values[0])
 
     col1, col2, = st.columns(2)
