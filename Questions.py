@@ -15,4 +15,4 @@ st.set_page_config(
 st.title("LLMs generated answers for AMD questions")
 
 
-st.write("Choose one of the application on the left")
+st.write("Choose one of the applications on the left")
