@@ -27,7 +27,7 @@ with st.expander("Legend for Evaluation Criteria:"):
 DATA_URL = "./used_in_paper.csv"
 
 
-columns=["type", "Question", "GPT4", "Unnamed: 4"]
+columns=["type", "Question", "PALM2", "Unnamed: 4"]
 columns2 = ["qno", "type", "Question", "GPT4"]
 
 reviewer1 = "Reviewer 1"
