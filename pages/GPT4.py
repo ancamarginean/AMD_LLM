@@ -8,30 +8,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# from googleapiclient.http import MediaIoBaseDownload
-# from io import BytesIO
-#
-# def google_drive(id:str) -> DataFrame:
-#     SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
-#     creds = Credentials.from_service_account_file(
-#         "service-account.json",
-#         scopes=SCOPES,
-#     )
-#     service = build(
-#         "drive",
-#         "v3",
-#         credentials=creds,
-#         cache_discovery=False,
-#     )
-#     request = service.files().get_media(fileId=id)
-#     file = BytesIO()
-#     downloader = MediaIoBaseDownload(file,request)
-#     done = False
-#     while done is False: _,done = downloader.next_chunk()
-#     file.seek(0)
-#     return read_csv(file)
-
-
 
 st.title("GPT4 generated answers for AMD questions")
 
@@ -44,8 +20,6 @@ with st.expander("Legend for Evaluation Criteria:"):
     for i,c in enumerate(criterii):
         st.write(f"C{i+1} = {c} ")
 
-#DATE_COLUMN = 'date/time'
-#DATA_URL = ('https://users.utcluj.ro/~chiorana/AMD_questions/gpt4.csv')
 DATA_URL = "./used_in_paper.csv"
 
 
