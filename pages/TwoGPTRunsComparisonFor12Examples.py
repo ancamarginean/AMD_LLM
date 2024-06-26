@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 st.subheader("Comparison between two GPT queries")
-st.write("Common ideas are marked with common colors between left and right. ")
+st.write("Common ideas are marked with common colors between GPT4 December 2023 and GPT4 June 2024. ")
 
 DATA_URL = "./comparison.csv"
 @st.cache_data
